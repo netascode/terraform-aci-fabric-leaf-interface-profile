@@ -1,7 +1,5 @@
-module "aci_scaffolding" {
-  source = "netascode/scaffolding/aci"
+module "aci_fabric_leaf_interface_profile" {
+  source = "netascode/fabric-leaf-interface-profile/aci"
 
-  name        = "ABC"
-  alias       = "ABC-ALIAS"
-  description = "My Description"
+  name = "LEAF101"
 }
